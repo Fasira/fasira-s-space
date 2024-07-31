@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="em">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasira's Space</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+    <!-- ---typing js--- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- ---scroll page--- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href='https://fonts.googleapis.com/css?family=JetBrains Mono' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Honk' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Suez One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="image/Portfolio.jpg" download>Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <h1>Fasira's Space</h1>
+                <div class="header-name">
+                    <p><span class="typedText"></span> </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------about------------ -->
+    <div id="about">
+        <div class="container-ab">
+            <div class="about-1">
+                <h1 class="ab">About Me</h1>
+                <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hi there! I'm Fasira, a 4th year
+                    Software Engineering student at Mae Fah Luang University. I'm passionate
+                    about UX/UI design, as it allows me to enhance user experiences and improve
+                    interactions with technology.</p>
+                <hr>
+                <div class="tabs-container">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('tools')">Tools</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>August 2021 - Present</span><br><br><strong>Mae Fah Luang University, Chiang
+                                    Rai</strong><br><br>Bachelor's Degree in Software Engineering, GPAX: 3.54</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul class="skill">
+                            <li class="left-aligned-heading"><span>UX Design</span><br><br>- User Research<br>-
+                                Persona<br>- User Journey Mapping<br>- Workflow</li>
+                            <li class="left-aligned-heading"><span>UI Design</span><br><br>- Visual Design<br>-
+                                Wireframes<br>- Prototyping</li>
+                            <li class="left-aligned-heading"><span>Coding</span><br><br>- HTML<br>- CSS</li>
+                            <li class="left-aligned-heading"><span>Languages</span><br><br>- Native Thai Speaker<br>-
+                                Fluent in Bahasa Melayu<br>- Fair in English</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="tools">
+                        <ul class="tool">
+                            <li>Figma</li>
+                            <li>Justinmind</li>
+                            <li>Visual Studio Code</li>
+                            <li>GitHub</li>
+                            <li>ChatGPT</li>
+                            <li>Jira</li>
+                            <li>Trello</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container-p">
+            <div class="all-work">
+                <h1>My Projects</h1>
+                <div class="work-container">
+                    <div class="color-container">
+                        <div class="scroll-container">
+                            <div class="scroll">
+                                <img src="image/c1.png" alt="Project 1" class="project-img" />
+                                <img src="image/c2.png" alt="Project 1" class="project-img" />
+                                <img src="image/c3.png" alt="Project 1" class="project-img" />
+                                <img src="image/c4.png" alt="Project 1" class="project-img" />
+                                <img src="image/c5.png" alt="Project 1" class="project-img" />
+                            </div>
+                        </div>
+                        <button class="prev">‹</button>
+                        <button class="next">›</button>
+                        <h2>Find Café</h2>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The app is to help users locate cafés around
+                            them in Chiang Rai and this app will show a list and photos of the menu, locations,
+                            and contacts.</p>
+                    </div>
+
+                    <div class="color-container">
+                        <div class="scroll-container">
+                            <div class="scroll">
+                                <img src="image/n1.png" alt="Project 2" class="project-img" />
+                                <img src="image/n2.png" alt="Project 2" class="project-img" />
+                                <img src="image/n3.png" alt="Project 2" class="project-img" />
+                                <img src="image/n4.png" alt="Project 2" class="project-img" />
+                            </div>
+                        </div>
+                        <button class="prev">‹</button>
+                        <button class="next">›</button>
+                        <h2>Novel Verse</h2>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This app will display a list of Novels, Anime and Books
+                            so that users can enjoy reading them.</p>
+                    </div>
+
+                    <div class="color-container">
+                        <div class="scroll-container">
+                            <div class="scroll">
+                                <img src="image/1.png" alt="Project 3" class="project-img" />
+                                <img src="image/2.png" alt="Project 3" class="project-img" />
+                                <img src="image/3.png" alt="Project 3" class="project-img" />
+                                <img src="image/4.png" alt="Project 3" class="project-img" />
+                                <img src="image/5.png" alt="Project 3" class="project-img" />
+                                <img src="image/6.png" alt="Project 3" class="project-img" />
+                                <img src="image/7.png" alt="Project 3" class="project-img" />
+                                <img src="image/8.png" alt="Project 3" class="project-img" />
+                                <img src="image/9.png" alt="Project 3" class="project-img" />
+                            </div>
+                        </div>
+                        <button class="prev">‹</button>
+                        <button class="next">›</button>
+                        <h2>Puangun</h2>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The project is the vision of Grand Challenges Canada,
+                            aims to help Indigenous youth struggling with mental health issues using an app to consult
+                            theirs health. <strong>Available on App store and Play store.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------contact-------------- -->
+    <div id="contact">
+        <div class="container-ct">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>fasirah6392@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>082-5214765</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/fffffasi?mibextid=LQQJ4d"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/fasira-daramana-32bb58279"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Fasira"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
