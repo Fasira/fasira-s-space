@@ -9,7 +9,7 @@ html{
 }
 body{
     font-family: 'JetBrains Mono';
-    background: #000;
+    background: #674188;
     margin: 0; /* Remove default margin */
     padding-top: 50px;
     margin-left: 50px;
@@ -19,9 +19,9 @@ body{
 #header{
     margin-bottom: 50px;
     padding: 30px; 
-    background-color: #FAEDD8;
+    background-color: #F7EFE5;
     border-radius: 50px;
-    border: 5px solid #FE8100;
+    border: 5px solid #C8A1E0;
 }
 .container{
     padding: 10px 10%;
@@ -45,10 +45,10 @@ body{
     left: 50%;
     transform: translateX(-50%);
     width: auto;
-    background-color: #FE8100;
+    background-color: #C8A1E0;
     border-radius: 30px;
-    border: 3px solid #FAEDD8;
-    color: #FAEDD8;
+    border: 3px solid #F7EFE5;
+    color: #F7EFE5;
     font-weight: bold;
     padding: 5px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -60,7 +60,7 @@ body{
     margin: 10px 20px;
 }
 .navbar ul li a{
-    color: #FAEDD8;
+    color: #F7EFE5;
     text-decoration: none;
     font-size: 16px;
     position: relative;
@@ -69,7 +69,7 @@ body{
     content: '';
     width: 0;
     height: 3px;
-    background: #FAEDD8;
+    background: #F7EFE5;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -80,9 +80,9 @@ body{
 }
 /* -----------about------------ */
 #about{
-    background-color: #FE8100;
+    background-color: #C8A1E0;
     border-radius: 50px;
-    border: 5px solid #FAEDD8;
+    border: 5px solid #F7EFE5;
     padding: 30px;
     margin-bottom: 50px;
 }
@@ -93,7 +93,7 @@ body{
     font-family: 'Suez One';
     font-size: 90px;
     text-align: center;
-    color: #FAEDD8;
+    color: #F7EFE5;
     margin-bottom: 30;
 }
 .about-1 {
@@ -127,30 +127,30 @@ body{
     position: relative;
     text-align: center;
     padding: 10px 20px; /* Add padding to make it look like a button */
-    background-color: #FE8100; /* Button background color */
-    color: #FAEDD8; /* Text color */
+    background-color: #C8A1E0; /* Button background color */
+    color: #F7EFE5; /* Text color */
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
-    border: 3px solid #FAEDD8; /* Border to match the background color */
+    border: 3px solid #F7EFE5; /* Border to match the background color */
     border-radius: 30px; /* Rounded corners */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 }
 .tab-links:hover {
-    background-color: #FAEDD8; /* Background color on hover */
-    color: #FE8100; /* Text color on hover */
-    border-color: #FAEDD8; /* Border color on hover */
+    background-color: #F7EFE5; /* Background color on hover */
+    color: #C8A1E0; /* Text color on hover */
+    border-color: #F7EFE5; /* Border color on hover */
 }
 .tab-links::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #FAEDD8;
+    background: #F7EFE5;
     position: absolute;
     left: 0;
     bottom: -8px;
     transition: width 0.5s;
 }
 .skill ul li span{
-    color: #FAEDD8;
+    color: #F7EFE5;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -168,7 +168,7 @@ body{
 .tool li{
     list-style: none;
     padding: 10px;
-    background-color: #FAEDD8; /* Change this color to your preference */
+    background-color: #F7EFE5; /* Change this color to your preference */
     border-radius: 30px; /* Optional: To add rounded corners */
     display: inline-block; /* Optional: To fit the background to the text */
     width: auto;
@@ -179,7 +179,7 @@ body{
     text-align: center;
 }
 .tab-contents ul li span{
-    color: #FAEDD8;
+    color: #F7EFE5;
     font-size: 18px;
     font-weight: bold;
 }
@@ -196,9 +196,9 @@ body{
     position: relative;
     margin-bottom: 50px;
     padding: 30px; 
-    background-color: #FAEDD8;
+    background-color: #F7EFE5;
     border-radius: 50px;
-    border: 5px solid #FE8100; 
+    border: 5px solid #C8A1E0; 
 }
 .container-p{
     padding: 10px 10%;
@@ -226,16 +226,16 @@ body{
     width: 30%;
     padding: 30px;
     margin-right: 40px;
-    border: 3px solid #FE8100;
-    background: #FAEDD8;
+    border: 3px solid #C8A1E0;
+    background: #F7EFE5;
     border-radius: 50px;
     transition: background 0.3s, box-shadow 0.3s;
     position: relative;
   }
   .color-container:hover {
-    background: #FE8100;
+    background: #C8A1E0;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    color: #fff;
+    color: #F7EFE5;
   }
   
   .color-container p{
@@ -294,13 +294,13 @@ body{
     flex-direction: column; /* Stacks children vertically */
     align-items: center; /* Horizontally centers the content */
     text-align: center;
-    color: #fff;
+    color: #F7EFE5;
 }
 .contact-left p{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #FE8100;
+    color: #C8A1E0;
     font-size: 24px;
     padding-right: 15px;
 }
@@ -311,12 +311,12 @@ body{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #FE8100;
+    color: #C8A1E0;
     display: inline-block;
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #FE8100;
+    color: #C8A1E0;
     transform: translateY(-5px);
 }
 
@@ -341,7 +341,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #005d46;
+        background: #C8A1E0;
         position: fixed;
         top: 0;
         right: -200px;
